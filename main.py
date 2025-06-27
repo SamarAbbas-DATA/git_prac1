@@ -1,3 +1,2 @@
-print("Hello, World!")
-print("Hello again!")
-print('even more changes')
+print("This is the main branch!")
+print("Stable release version")
