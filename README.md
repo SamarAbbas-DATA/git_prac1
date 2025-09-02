@@ -16,6 +16,7 @@ APScheduler for background cleanup
 Uvicorn server
 
 ## Project structure
+```text 
 project_root/
 ├─ blog/
 │  ├─ __init__.py
@@ -27,7 +28,7 @@ project_root/
 │  ├─ __init__.py
 │  └─ blogs.py          # /blogs router (CRUD)
 └─ requirements.txt
-
+```
 
 # Quickstart
 
