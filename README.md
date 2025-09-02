@@ -28,6 +28,7 @@ project_root/
 │  └─ blogs.py          # /blogs router (CRUD)
 └─ requirements.txt
 
+
 # Quickstart
 
 Prereqs: Python 3.10+ and MongoDB running locally.
