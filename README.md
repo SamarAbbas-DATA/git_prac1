@@ -32,21 +32,21 @@ project_root/
 
 Prereqs: Python 3.10+ and MongoDB running locally.
 
-## 1) Clone and enter
+1) Clone and enter
 git clone <your-repo-url>
 cd <repo-folder>
 
-## 2) (Optional) create and activate venv
+2) (Optional) create and activate venv
 python -m venv venv
 # Windows PowerShell:
 .\venv\Scripts\Activate.ps1
 
-## 3) Install deps
+3) Install deps
 pip install -r requirements.txt
-# Tip (fixes spinning /docs on some systems):
+Tip (fixes spinning /docs on some systems):
 pip install -U "fastapi[standard]" uvicorn
 
-## 4) Run from the PROJECT ROOT (important)
+4) Run from the PROJECT ROOT (important)
 uvicorn blog.main1:app --reload --host 127.0.0.1 --port 8001
 
 
