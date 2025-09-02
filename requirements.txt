@@ -1,6 +1,9 @@
 fastapi==0.115.0
 uvicorn==0.30.0
-pandas==2.2.2
+pandas
 numpy==2.1.0
 pymongo==4.8.0
 sqlalchemy==2.0.32
+passlib
+bcrypt
+apscheduler
